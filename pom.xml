@@ -1,0 +1,47 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ua.dataart.ryzhkov</groupId>
+    <artifactId>TelegramBot</artifactId>
+    <version>1</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.plogitech</groupId>
+            <artifactId>darksky-forecast-api</artifactId>
+            <version>0.10</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.plogitech</groupId>
+            <artifactId>darksky-forecast-api-jackson</artifactId>
+            <version>0.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.maps</groupId>
+            <artifactId>google-maps-services</artifactId>
+            <version>0.1.20</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
